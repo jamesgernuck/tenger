@@ -1,9 +1,9 @@
 :root {
-  --border: #35e6ba;
-  --text: #c8c8c8;
+  --border: #c8c8c8;
+  --text: #35e6ba;
   --glow: 10px;
-  --textglow: 0px;
-  --radius: 10px;
+  --textglow: 10px;
+  --radius: 5px;
 }
 
 @font-face {
@@ -14,6 +14,8 @@
 }
 
 .neon {
+  position: relative;
+  bottom: 100px;
   text-align: center;
   font-family: 'Neon';
   color: rgba(255,34,0,1);
@@ -189,7 +191,7 @@ body {
   font-family: "DotGothic16", sans-serif;
   cursor: url('/assets/cursors/cursor.png') 24 24, auto;
   height: 100%;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .cry {
